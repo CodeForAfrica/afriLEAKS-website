@@ -2,7 +2,6 @@
 title: "technology"
 bg: white
 color: black
-style: center
 fa-icon: gear
 ---
 
