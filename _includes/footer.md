@@ -1,2 +1,2 @@
 THE PLATFORM: 
-[Security](../security.md) || [Technology](../technology.md)
+[Security](security.md) || [Technology](technology.md)
