@@ -1,3 +1,10 @@
+---
+title: "security"
+bg: black
+color: white
+style: center
+---
+
 # Security
 ### Security for whistleblowers
 Leaking sensitive information is not free of risk. There social as well as technical risks involved that can threaten your anonymity. You can however, take precautionary measures to protect yourself.

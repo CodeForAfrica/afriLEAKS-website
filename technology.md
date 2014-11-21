@@ -1,3 +1,10 @@
+---
+title: "technology"
+bg: black
+color: white
+style: center
+---
+
 # Technology
 Afrileaks platform is based on two different servers software: GlobaLeaks and Tor2web.
 
