@@ -1,8 +1,9 @@
 ---
 title: "technology"
-bg: black
-color: white
+bg: white
+color: black
 style: center
+fa-icon: gear
 ---
 
 # Technology
