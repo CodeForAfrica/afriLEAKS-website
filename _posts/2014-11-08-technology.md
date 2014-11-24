@@ -37,3 +37,4 @@ Hermes achieves this goal through research and deployment of software technology
 ![](img/tor2web.png)
 
 Tor2web the software project behind the Tor2web network, a globally distributed network of proxies that aims to create a bridge between the Internet and the Tor Hidden Services. When a user tries to reach a web page he gets an alert if he’s not working anonymously. GlobaLeaks recommends to download the Tor Browser Bundle to access the website via the Tor Darknet. Therefore the issued alert is encouragement for people to use the Tor Browser Bundle.
+[Download Tor Browser Bundle](https://www.torproject.org/download/download-easy.html.en)
