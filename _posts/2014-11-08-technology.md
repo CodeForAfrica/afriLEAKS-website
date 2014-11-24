@@ -3,6 +3,7 @@ title: "technology"
 bg: white
 color: black
 fa-icon: gear
+style: center
 ---
 
 # Technology
@@ -16,10 +17,14 @@ Hermes has developed the GlobaLeaks Anonymous Whistleblowing Platform and is the
 
 ## Hermes Center
 
+![](img/hermes.png)
+
 The Hermes Centre wants to promote awareness and attention to transparency and accountability. Its goal is to increase the involvement of citizens to better serve the public interest.
 Hermes achieves this goal through research and deployment of software technology for transparency and anonymity.
 
 ## GlobaLeaks
+
+![](img/globaleaks.png)
 
 * GlobaLeaks is an open source project aimed at creating a global, anonymous, censorship-resistant, safe and easy to use whistleblowing platform;
 + GlobaLeaks is designed with flexibility in mind, where maximum privacy and security are the de facto standard;
@@ -28,5 +33,7 @@ Hermes achieves this goal through research and deployment of software technology
 + GlobaLeaks gives whistleblowers, once they submitted their tip (anonymously), the opportunity to reach out to the journalist they previously contacted.
 
 ## Tor2web
+
+![](img/tor2web.png)
 
 Tor2web the software project behind the Tor2web network, a globally distributed network of proxies that aims to create a bridge between the Internet and the Tor Hidden Services. When a user tries to reach a web page he gets an alert if he’s not working anonymously. GlobaLeaks recommends to download the Tor Browser Bundle to access the website via the Tor Darknet. Therefore the issued alert is encouragement for people to use the Tor Browser Bundle.
