@@ -24,6 +24,7 @@ touch_icon:  ""
 google_analytics_key:  ## put YOUR key here to enable tracking! (blank to disable)
 
 
+
 ### template colors, used site-wide via css ###
 colors:
   black:     '#111111'
@@ -33,3 +34,4 @@ colors:
   purple:    '#c869bf'
   orange:    '#fab125'
   turquoise: '#0fbfcf'
+  textured:  'img/bg.jpg'
