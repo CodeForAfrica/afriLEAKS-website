@@ -13,18 +13,10 @@ lsi: false
 markdown: kramdown
 highlighter: pygments
 sass:
-  sass_dir: style
   style: compressed
 
 ### content configuration ###
-title:       "AfriLeaks Landing Page"
-keywords:    "afrileaks, jekyll, open source, github, blog"
-description: "AfriLeaks is an online system which enables users to anonymously send material to investigative media organisations of their choice."
-source_link: ""
-favicon:     ""
-touch_icon:  ""
 google_analytics_key:  ## put YOUR key here to enable tracking! (blank to disable)
-
 
 
 ### template colors, used site-wide via css ###
