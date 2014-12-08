@@ -1,7 +1,11 @@
 
+### As a whistleblower, why should I use afriLeaks?
+
+This website uses state of the art security software to anonymize your internet connection as you submit documents or correspond with reporters. This way, your identity is protected both from the reporters which receive the documents, and from others who might be intercepting your communications.
+
 ### How is afriLeaks different from Wikileaks?
 
-AfriLeaks isn't like Wikileaks. Wikileaks publishes the information it receives directly. AfriLeaks, on the other hand, is a highly secure mailbox connecting investigative media houses to whistleblowers. Documents shared on afriLeaks form the beginning of a journalistic inquiry, instead of being shared directly on the web.
+afriLeaks isn't like Wikileaks. Wikileaks publishes the information it receives directly. afriLeaks, on the other hand, is a highly secure mailbox connecting investigative media houses to whistleblowers. Documents shared on afriLeaks form the beginning of a journalistic inquiry, instead of being shared directly on the web.
 
 ### How do you select media organisations?
 
