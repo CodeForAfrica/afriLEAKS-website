@@ -1,0 +1,159 @@
+---
+---
+
+$theme-color: #559dc0;
+$theme-gray: #222;
+
+body {
+    font-family: 'Raleway', 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: $theme-gray;
+    font-size: 1.8em;
+}
+
+.container {
+    max-width: 900px;
+}
+
+a, a:hover {
+    color: $theme-color;
+}
+
+@mixin fancy-font() {
+    font-family: 'Special Elite', Georgia, serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+    @include fancy-font();
+}
+
+#page {
+    background-color: white;
+    padding-bottom: 3em;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 1em;
+
+    li {
+        margin-bottom: 0.3em;
+    }
+}
+
+footer {
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    font-size: 0.8em;
+
+    a {
+        color: white;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    img {
+        max-height: 4em;
+        margin-left: 1em;
+        float: right;
+        border: 1px solid white;
+    }
+}
+
+/* Navbar */
+.navbar {
+    background-color: $theme-gray;
+    padding-top: 0.7em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid $theme-gray;
+    margin-bottom: 0;
+
+    .navbar-brand {
+        @include fancy-font();
+        color: white;
+        font-size: 2em;
+
+        &:hover {
+            color: white;
+        }
+    }   
+}
+
+
+/* Nav pills */
+.nav-pills {
+    margin-top: 3em;
+
+    li.active a, li a {
+        border-radius: 0;
+        font-size: 0.8em;
+        font-weight: 700;
+        color: $theme-gray;
+        text-transform: uppercase;
+    }
+
+    li.active a, li.active a:hover, li.active a:focus, {
+        background-color: $theme-gray;
+        color: white;
+    }
+}
+
+
+
+#intro {
+    background-image: url(/img/wall.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    padding-top: 10em;
+    padding-bottom: 3em;
+    margin-bottom: 2em;
+
+    //font-weight: 700;
+    color: white;
+    
+    #claim {
+        text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.5);
+        font-size: 1.7em;
+        padding-bottom: 1em;
+        font-weight: 700;
+    }
+
+    .btn {
+        border: white;
+        border-radius: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+#partners {
+    margin-top: 3em;
+    
+    #inner {
+        padding: 0.5em 1em 0.5em 1em;
+        border: 1px solid #ddd;
+    }
+    
+    img {
+        margin-right: 3em;
+        margin-bottom: 1em;
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+    img:hover {
+        -webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}

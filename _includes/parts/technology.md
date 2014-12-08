@@ -1,13 +1,8 @@
----
-title: "technology"
-bg: white
-color: black
-fa-icon: gear
-style: center
----
 
-# Technology
-Afrileaks platform is based on two different servers software: GlobaLeaks and Tor2web.
+
+### Technology
+
+The afriLeaks platform is based on two different servers software: GlobaLeaks and Tor2web.
 
 The project relies also on the use of Tails, the popular live operating system which preserves the privacy and anonymity of the user.
 
@@ -15,14 +10,17 @@ The Hermes Center for Transparency and Digital Rights is the Technology Provider
 
 Hermes has developed the GlobaLeaks Anonymous Whistleblowing Platform and is the maintainer of the Tor2web software.
 
+<!--
 ## Hermes Center
 
 ![](img/hermes.png)
 
 The Hermes Centre wants to promote awareness and attention to transparency and accountability. Its goal is to increase the involvement of citizens to better serve the public interest.
 Hermes achieves this goal through research and deployment of software technology for transparency and anonymity.
+-->
 
-## GlobaLeaks
+
+### GlobaLeaks
 
 ![](img/globaleaks.png)
 
@@ -32,7 +30,7 @@ Hermes achieves this goal through research and deployment of software technology
 * GlobaLeaks manages the communication workflow between the whistleblowers who submit tips, and journalists, who receive this information;
 + GlobaLeaks gives whistleblowers, once they submitted their tip (anonymously), the opportunity to reach out to the journalist they previously contacted.
 
-## Tor2web
+### Tor2web
 
 ![](img/tor2web.png)
 

@@ -12,7 +12,8 @@ timezone: null
 lsi: false
 markdown: kramdown
 highlighter: pygments
-
+sass:
+  style: compressed
 
 ### content configuration ###
 title:       "AfriLeaks Landing Page"

@@ -1,0 +1,6 @@
+<div id="intro">
+  <div class="container">
+    {% capture intro_text %} {% include parts/intro.md %} {% endcapture %}
+    {{ intro_text | markdownify }}
+  </div>
+</div>
