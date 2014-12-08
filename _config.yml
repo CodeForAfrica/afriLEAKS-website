@@ -13,6 +13,7 @@ lsi: false
 markdown: kramdown
 highlighter: pygments
 sass:
+  sass_dir: style
   style: compressed
 
 ### content configuration ###
