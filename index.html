@@ -26,18 +26,13 @@ description: "AfriLeaks is an online system which enables users to anonymously s
         {% capture security_text %} {% include parts/security.md %} {% endcapture %}
         {{ security_text | markdownify }}
       </div>
-
-      <div role="tabpanel" class="tab-pane" id="technology">
-        {% capture technology_text %} {% include parts/technology.md %} {% endcapture %}
-        {{ technology_text | markdownify }}
-      </div>   
     </div>
   </div>
 
   <div class="col-md-4">
     <ul class="nav nav-pills nav-stacked" role="tablist">
       <li role="presentation" class="active">
-        <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a>
+        <a href="#about" aria-controls="about" role="tab" data-toggle="tab">Introduction</a>
       </li>
       <li role="presentation">
         <a href="#howto" aria-controls="howto" role="tab" data-toggle="tab">How to Leak</a>
@@ -46,9 +41,6 @@ description: "AfriLeaks is an online system which enables users to anonymously s
         <a href="#faq" aria-controls="faq" role="tab" data-toggle="tab">Frequent Questions</a></li>
       <li role="presentation">
         <a href="#security" aria-controls="security" role="tab" data-toggle="tab">Your Security</a>
-      </li>
-      <li role="presentation">
-        <a href="#technology" aria-controls="technology" role="tab" data-toggle="tab">Technology</a>
       </li>
     </ul>
   </div>

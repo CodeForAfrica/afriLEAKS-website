@@ -1,5 +1,5 @@
 
-### About afriLeaks
+### Welcome to afriLeaks
 
 AfriLeaks is run by an alliance of African news organisations that are committed to speaking truth to power. Our secure web platform helps you to send us source documents, whether they are memos, contracts, accounts or other evidence of corruption and misbehaviour.
 

@@ -5,11 +5,13 @@ AfriLeaks isn't like Wikileaks. Wikileaks publishes the information it receives 
 
 ### How do you select media organisations?
 
-The media organisations fulfill several criteria: excellence in investigative journalism, integrity in content and investigative processes, geographic relevance, etc. Media houses that comprise members of the African Network of Centers for Investigative Reporting (ANCIR) are personally approached, while others that have approached us are vetted for the same by a board of leading investigative journalists.
+The afriLeaks receivers must meet several criteria: excellence in investigative journalism, integrity in content and investigative processes, geographic relevance, etc.
+
+Media houses that comprise members of the African Network of Centers for Investigative Reporting (ANCIR) approached, while others that have approached us are vetted by a board of leading investigative journalists.
 
 ### Why is the AfriLeaks connection so slow?
 
-The connection to the secure AfriLeaks installation goes through the Tor network. Tor is a network of virtual tunnels that enable improved privacy and security on the internet. Tor sends your traffic through three random servers (also called relays) before the traffic is send to the public internet. The disadvantage is that this can make the connection very slow. The advantage is that this protects your anonymity.
+The connection to afriLeaks goes through the Tor network. Tor is a system of virtual tunnels hide the sender of information from possibly attackers. While this helps to protect your anonymity, the disadvantage is that this can make the connection very slow.
 
 ### Does uploading information involve danger?
 
