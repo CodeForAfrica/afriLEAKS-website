@@ -25,7 +25,8 @@ a, a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-    @include fancy-font();
+    //@include fancy-font();
+    font-weight: 700;
 }
 
 h4 {
@@ -72,16 +73,29 @@ footer {
 
 /* Navbar */
 .navbar {
-    background-color: $theme-gray;
+
+    $navbar: #ddd;
+    background-color: $navbar; // $theme-gray;
     padding-top: 0.7em;
     padding-bottom: 0.3em;
-    border-bottom: 1px solid $theme-gray;
+    border-bottom: 1px solid darken($navbar, 10%);
     margin-bottom: 0;
+
+    .navbar-header {
+        float: left;
+    }
 
     .navbar-brand {
         @include fancy-font();
         color: white;
         font-size: 2em;
+        padding-top: 0;
+        min-height: 90px;
+
+        img {
+            margin-top: -10px;
+            height: 100px;
+        }
 
         &:hover {
             color: white;
@@ -90,7 +104,7 @@ footer {
 }
 
 .top-buffered {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 
