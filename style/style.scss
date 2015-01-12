@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5 {
     @include fancy-font();
 }
 
+h4 {
+    margin-top: 1.5em;
+}
+
 #page {
     background-color: white;
     padding-bottom: 3em;
