@@ -12,14 +12,13 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Special+Elite|Raleway:700,200,300' rel='stylesheet' type='text/css'>
-    <link href="style/style.css" rel='stylesheet' type='text/css'>
+    <link href="/style/style.css" rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="http://investigativecenters.org/img/logo.jpg">
   </head>
   <body>
     <div id="page">
       {% include nav.html %}
-      {% include intro.html %}
-      <div class="container">{{ content }}</div>
+      {{ content }}
     </div>
 
     <footer class="hidden-print">

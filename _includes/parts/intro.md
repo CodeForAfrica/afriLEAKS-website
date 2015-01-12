@@ -6,9 +6,12 @@
     Securely share information with Africa's finest journalists.
 </div>
 <div>
-    <a href="https://secure.afrileaks.org/" class="btn btn-default btn-lg">
+    <!--a href="https://secure.afrileaks.org/" class="btn btn-default btn-lg">
         <i class="fa fa-cloud-upload"></i>
         Blow the whistle
-    </a>
+    </a-->
+    <a href="#" class="btn btn-default btn-lg">
+        We're launching January 13, 2015
+    </a-->
 </div>
 
