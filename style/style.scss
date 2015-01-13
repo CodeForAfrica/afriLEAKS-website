@@ -74,7 +74,7 @@ footer {
 /* Navbar */
 .navbar {
 
-    $navbar: #ddd;
+    $navbar: #fff;
     background-color: $navbar; // $theme-gray;
     padding-top: 0.7em;
     padding-bottom: 0.3em;
@@ -90,11 +90,11 @@ footer {
         color: white;
         font-size: 2em;
         padding-top: 0;
-        min-height: 90px;
+        min-height: 70px;
 
         img {
             margin-top: -10px;
-            height: 100px;
+            height: 80px;
         }
 
         &:hover {
