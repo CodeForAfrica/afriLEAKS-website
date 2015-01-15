@@ -1,7 +1,7 @@
 
 ### Welcome to afriLeaks
 
-afriLeaks allows you to leak confidential documents of public interest. We've designed a system that helps you to share these materials while protecting your own identity, so that it becomes impossible to identify you as the source of the leak.
+afriLeaks allows you to leak confidential documents of public interest. We've designed a system that helps you to share these materials while protecting your own identity, making it very hard to identify you as the source of the leak.
 
 <!--
 Our secure web platform helps you to send us source documents, whether they are memos, contracts, accounts or other evidence of corruption and misbehaviour.
