@@ -1,13 +1,13 @@
 
 ### Welcome to afriLeaks
 
-afriLeaks allows you to leak confidential documents of public interest. We've designed a system that helps you to share these materials while protecting your own identity, making it very hard to identify you as the source of the leak.
+afriLeaks allows you to leak confidential documents of public interest. We've designed the system to help you share these materials while protecting your own identity, making it very hard to identify you as the source of the leak.
 
 <!--
 Our secure web platform helps you to send us source documents, whether they are memos, contracts, accounts or other evidence of corruption and misbehaviour.
 -->
 
-afriLeaks is run by an alliance of African news organisations that are committed to speaking truth to power. You will be able to send us documents and select which of our member organisations should investigate it. This site also helps you to stay in touch and answer further questions without revealing your name or contact information.
+afriLeaks is run by an alliance of African news organisations that are committed to speaking truth to power. You can send us documents and select which of our member organisations should perform an investigation. This site also helps you to stay in touch and answer further questions without revealing your name or contact information.
 
 <!--
 AfriLeaks is an online system which enables users to anonymously send material to investigative media organisations of their choice. Documents with relevant information can be uploaded through the site. These pieces will be send to participating media organisations through highly secure systems that render tracing difficult to impossible. Sources, whistleblowers and other users can, after selecting investigative media, continue to receive messages from the media house that are sent by untraceable codes. This is absolutely anonymous and recommended for investigative processes. Journalists can use the system to interview and investigate the veracity of content/sources and decide thereafter whether to use the information as leads for eventual publication. 
