@@ -4,181 +4,223 @@
 $theme-color: #559dc0;
 $theme-gray: #222;
 
+@font-face {
+  font-family: NoticiaText;
+  src: url("/fonts/webfonts/NoticiaText-Regular.woff");
+}
+
+@font-face {
+  font-family: NoticiaText;
+  src: url("/fonts/webfonts/NoticiaText-Bold.woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: NoticiaText;
+  src: url("/fonts/webfonts/NoticiaText-Bold.woff");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: NoticiaText;
+  src: url("/fonts/webfonts/NoticiaText-BoldItalic.woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: AfriLeaksOne;
+  src: url("/fonts/webfonts/AfriLeaksOne-Regular.woff");
+}
+
 body {
-    font-family: 'Raleway', 'Open Sans', sans-serif;
-    font-weight: 300;
-    background-color: $theme-gray;
-    font-size: 1.8em;
+  font-family: 'Raleway', 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: $theme-gray;
+  font-size: 1.8em;
 }
 
 .container {
-    max-width: 900px;
+  max-width: 900px;
 }
 
 a, a:hover {
-    color: $theme-color;
+  color: $theme-color;
 }
 
 @mixin fancy-font() {
-    font-family: 'Special Elite', Georgia, serif;
-    font-weight: 400;
+  font-family: 'Special Elite', Georgia, serif;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5 {
-    //@include fancy-font();
-    font-weight: 700;
+  //@include fancy-font();
+  font-weight: 700;
 }
 
 h4 {
-    margin-top: 1.5em;
+  margin-top: 1.5em;
+}
+
+.btn {
+  font-family: AfriLeaksOne;
+}
+
+.btn-default {
+  background-color: #ffff00;
+  &:hover {
+    background-color: #ffffff;
+    border: 4px solid #ffff00 !important;
+    padding: 6px 16px !important;
+  }
 }
 
 #page {
-    background-color: white;
-    padding-bottom: 3em;
+  background-color: white;
+  padding-bottom: 3em;
 }
 
 ul {
-    list-style-type: square;
-    padding-left: 1em;
+  list-style-type: square;
+  padding-left: 1em;
 
-    li {
-        margin-bottom: 0.3em;
-    }
+  li {
+    margin-bottom: 0.3em;
+  }
 }
 
 footer {
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  font-size: 0.8em;
+
+  a {
     color: white;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    text-decoration: underline;
+  }
 
-    font-size: 0.8em;
+  a:hover {
+    color: white;
+  }
 
-    a {
-        color: white;
-        text-decoration: underline;
-    }
-
-    a:hover {
-        color: white;
-    }
-
-    img {
-        max-height: 4em;
-        margin-left: 1em;
-        float: right;
-        border: 1px solid white;
-    }
+  img {
+    max-height: 4em;
+    margin-left: 1em;
+    float: right;
+    border: 1px solid white;
+  }
 }
 
 /* Navbar */
 .navbar {
 
-    $navbar: #fff;
-    background-color: $navbar; // $theme-gray;
-    padding-top: 0.7em;
-    padding-bottom: 0.3em;
-    border-bottom: 1px solid darken($navbar, 10%);
-    margin-bottom: 0;
+  $navbar: #fff;
+  background-color: $navbar; // $theme-gray;
+  padding-top: 0.7em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid darken($navbar, 10%);
+  margin-bottom: 0;
 
-    .navbar-header {
-        float: left;
+  .navbar-header {
+    float: left;
+  }
+
+  .navbar-brand {
+    @include fancy-font();
+    color: white;
+    font-size: 2em;
+    padding-top: 0;
+    min-height: 70px;
+
+    img {
+      margin-top: -10px;
+      height: 80px;
     }
 
-    .navbar-brand {
-        @include fancy-font();
-        color: white;
-        font-size: 2em;
-        padding-top: 0;
-        min-height: 70px;
-
-        img {
-            margin-top: -10px;
-            height: 80px;
-        }
-
-        &:hover {
-            color: white;
-        }
-    }   
+    &:hover {
+      color: white;
+    }
+  }
 }
 
 .top-buffered {
-    padding-top: 50px;
+  padding-top: 50px;
 }
-
 
 /* Nav pills */
 .nav-pills {
-    margin-top: 3em;
+  margin-top: 3em;
 
-    li.active a, li a {
-        border-radius: 0;
-        font-size: 0.8em;
-        font-weight: 700;
-        color: $theme-gray;
-        text-transform: uppercase;
-    }
+  li.active a, li a {
+    border-radius: 0;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: $theme-gray;
+    text-transform: uppercase;
+  }
 
-    li.active a, li.active a:hover, li.active a:focus, {
-        background-color: $theme-gray;
-        color: white;
-    }
+  li.active a, li.active a:hover, li.active a:focus, {
+    background-color: $theme-gray;
+    color: white;
+  }
 }
 
-
-
 #intro {
-    background-image: url(../img/wall.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-image: url(../img/pixellated-photo.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-    padding-top: 10em;
-    padding-bottom: 3em;
-    margin-bottom: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-bottom: 2em;
 
-    //font-weight: 700;
-    color: white;
-    
-    #claim {
-        //text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.5);
-        font-size: 1.7em;
-        padding-bottom: 1em;
-        font-weight: 700;
+  //font-weight: 700;
+  color: white;
+
+  #claim {
+    margin-top: 1.5em;
+    font-size: 2.5em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    font-family: NoticiaText;
+  }
+
+  .btn {
+    i {
+      margin-right: 0.3em;
     }
-
-    .btn {
-        i {
-            margin-right: 0.3em;
-        }
-        border: white;
-        border-radius: 0;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
+    border-radius: 0;
+    border: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 10px 20px;
+  }
 }
 
 #partners {
-    margin-top: 3em;
-    
-    #inner {
-        padding: 0.5em 1em 0.5em 1em;
-        border: 1px solid #ddd;
-    }
-    
-    img {
-        margin-right: 3em;
-        margin-bottom: 1em;
-        -webkit-filter: grayscale(100%);
-        -moz-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
+  margin-top: 3em;
 
-    img:hover {
-        -webkit-filter: grayscale(0%);
-        -moz-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
+  #inner {
+    padding: 0.5em 1em 0.5em 1em;
+    border: 1px solid #ddd;
+  }
+
+  img {
+    margin-right: 3em;
+    margin-bottom: 1em;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  img:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
 }
