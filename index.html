@@ -4,57 +4,86 @@ title: "A secure whistleblowing platform for African media "
 description: "AfriLeaks is an online system which enables users to anonymously send material to investigative media organisations of their choice."
 ---
 
-<div class="row" role="tabpanel" id="main-content">
-  <div class="col-md-8">
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane active" id="about">
-        {% capture about_text %} {% include parts/about.md %} {% endcapture %}
-        {{ about_text | markdownify }}
-      </div>
+<div role="tabpanel" id="main-content">
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#about" aria-controls="about" role="tab" data-toggle="tab">Introduction</a>
+    </li>
+    <li role="presentation">
+      <a href="#howto" aria-controls="howto" role="tab" data-toggle="tab">How to Leak</a>
+    </li>
+    <li role="presentation">
+      <a href="#faq" aria-controls="faq" role="tab" data-toggle="tab">Frequent Questions</a></li>
+    <li role="presentation">
+      <a href="#security" aria-controls="security" role="tab" data-toggle="tab">Your Security</a>
+    </li>
+    <li role="presentation">
+      <a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact us</a>
+    </li>
+  </ul>
 
-      <div role="tabpanel" class="tab-pane" id="howto">
-        {% capture howto_text %} {% include parts/howto.md %} {% endcapture %}
-        {{ howto_text | markdownify }}
-      </div>
+  <div class="row">
+    <div class="col-md-9 col-md-offset-3">
 
-      <div role="tabpanel" class="tab-pane" id="faq">
-        {% capture faq_text %} {% include parts/faq.md %} {% endcapture %}
-        {{ faq_text | markdownify }}
-      </div>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="about">
+          <div class="row">
+            <div class="col-sm-6">
+              <h1 style="font-size: 4em;">Welcome To AfriLEAKS</h1>
+              AfriLEAKS allows you to leak confidential documents of public interest. We've designed the system to help
+              you share these materials while protecting your own identity, making it very hard to identify you as the
+              source of the leak.
+            </div>
+            <div class="col-sm-6">
+              <br/>
+              AfriLEAKS is run by an alliance of African news organisations that are committed to speaking truth to
+              power. You can send us documents and select which of our member organisations should perform an
+              investigation. This site also helps you to stay in touch and answer further questions without revealing
+              your name or contact information.
+            </div>
+          </div>
+        </div>
 
-      <div role="tabpanel" class="tab-pane" id="security">
-        {% capture security_text %} {% include parts/security.md %} {% endcapture %}
-        {{ security_text | markdownify }}
-      </div>
+        <div role="tabpanel" class="tab-pane" id="howto">
+          <div class="row">
+            <div class="col-sm-6">
+              <h1>How to leak confidential documents</h1>
+              If you have information about issues which should be investigated, share them with one of AfriLEAKS's news
+              partners using this site. Consider that concrete information and evidence, such as source documents, gives
+              a journalist more to work with and increases the likelihood that your issue gets taken up.
+            </div>
+            <div class="col-sm-6">
+              <h2>Protect your identity</h2>
+              Leaking sensitive information involves risks. There are both social and technical risks that threaten your
+              anonymity. At the same time, there are measures you can take to protect yourself. See 'Your Security' for
+              more details.
+              <h2>Who should receive your information?</h2>
+              The press checks those in power and exposes misconduct or abuse of power. The media has the resources to
+              bring issues into the public light. Journalists are professionals who investigate, ask critical questions,
+              and ensure all parties involved are asked about their side of the story. Furthermore, they work for mass
+              media (newspapers, magazines, websites, radio, or television programs) through which they can make their
+              research public.
+            </div>
+          </div>
 
-      <div role="tabpanel" class="tab-pane" id="contact">
-        {% capture security_text %} {% include parts/contact.md %} {% endcapture %}
-        {{ security_text | markdownify }}
+        </div>
+
+        <div role="tabpanel" class="tab-pane" id="faq">
+          {% capture faq_text %} {% include parts/faq.md %} {% endcapture %}
+          {{ faq_text | markdownify }}
+        </div>
+
+        <div role="tabpanel" class="tab-pane" id="security">
+          {% capture security_text %} {% include parts/security.md %} {% endcapture %}
+          {{ security_text | markdownify }}
+        </div>
+
+        <div role="tabpanel" class="tab-pane" id="contact">
+          {% capture security_text %} {% include parts/contact.md %} {% endcapture %}
+          {{ security_text | markdownify }}
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="col-md-4">
-    <ul class="nav nav-pills nav-stacked" role="tablist">
-      <li role="presentation" class="active">
-        <a href="#about" aria-controls="about" role="tab" data-toggle="tab">Introduction</a>
-      </li>
-      <li role="presentation">
-        <a href="#howto" aria-controls="howto" role="tab" data-toggle="tab">How to Leak</a>
-      </li>
-      <li role="presentation">
-        <a href="#faq" aria-controls="faq" role="tab" data-toggle="tab">Frequent Questions</a></li>
-      <li role="presentation">
-        <a href="#security" aria-controls="security" role="tab" data-toggle="tab">Your Security</a>
-      </li>
-      <li role="presentation">
-        <a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact us</a>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div id="partners">
-  {% capture partners_text %} {% include parts/partners.md %} {% endcapture %}
-  {{ partners_text | markdownify }}
 </div>

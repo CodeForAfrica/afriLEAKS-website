@@ -1,9 +1,9 @@
 
-### Security for whistleblowers
+## Security for whistleblowers
 
 Leaking sensitive information is not free of risk. There social as well as technical risks involved that can threaten your anonymity. You can however, take precautionary measures to protect yourself.
 
-### Social Risks
+## Social Risks
 
 Before you leak information, you should be aware of what can and will happen with the information that you have leaked and how it could possible be published. You can ask yourself the following questions for example:
 
@@ -11,7 +11,7 @@ Before you leak information, you should be aware of what can and will happen wit
 * Are you aware that, after the information has been published, people can ask you questions about the leaked information, even without knowing you are the source?
 * Can you handle the pressure that comes with a possible internal or external investigation about the leaked information?
 
-### Technological Risks
+## Technological Risks
 
 You should be aware that whenever you use a computer, mobile phone or the internet, or other forms of communication, most of these actions will leave traces. Investigators could use that kind of information to help identify you, you whereabouts or your contacts. You can take very specific risk mitigating precautions to prevent you from leaving such electronic traces. Your computer, for example, could leave traces for the following activities:
 
@@ -22,7 +22,7 @@ You should be aware that whenever you use a computer, mobile phone or the intern
 * Your name and other information in Word file meta data (author, date, etc);
 As you can see, there are various risks involved and the ones list above are by no means all of them. Yet with a few technical steps you can try to minimize these risks as much as possible.
 
-### Social Security
+## Social Security
 
 When it comes to the social security aspect, you should at least take the following into consideration:
 
@@ -32,7 +32,7 @@ When it comes to the social security aspect, you should at least take the follow
 * Do not use search engines or news websites looking specifically for the information you leaked. This could arouse suspicion about your involvement;
 These are just a few simple measures that you can take to better protect yourself.
 
-### Technical Protection
+## Technical Protection
 
 Because computers and networksystems are complex, technical measures to protect your anonymity are often complicated. In order to ensure the technical security of your anonymity for as much as possible, you need to be computer-savvy enough to understand these risks yourself.
 By following the procedures listed below, you will greatly enhance your anonymity:

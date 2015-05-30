@@ -4,3 +4,10 @@ layout: theme
 
 {% include intro.html %}
 <div class="container">{{ content }}</div>
+
+<div id="partners">
+  <div class="container">
+    {% capture partners_text %} {% include parts/partners.md %} {% endcapture %}
+    {{ partners_text | markdownify }}
+  </div>
+</div>
