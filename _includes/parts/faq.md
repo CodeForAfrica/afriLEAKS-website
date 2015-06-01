@@ -1,25 +1,25 @@
 
-### As a whistleblower, why should I use afriLeaks?
+## As a whistleblower, why should I use AfriLEAKS?
 
 This website uses state of the art security software to anonymize your internet connection as you submit documents or correspond with reporters. This way your identity is protected both from the reporters which receive the documents and from others who might be monitoring or intercepting your communications.
 
-### How is afriLeaks different from Wikileaks?
+## How is AfriLEAKS different from Wikileaks?
 
-afriLeaks isn't like Wikileaks. Wikileaks publishes the information it receives directly. afriLeaks, on the other hand, is a highly secure mailbox connecting investigative media houses to whistleblowers. Documents shared on afriLeaks form the beginning of a journalistic inquiry instead of being shared directly on the web.
+AfriLEAKS isn't like Wikileaks. Wikileaks publishes the information it receives directly. AfriLEAKS, on the other hand, is a highly secure mailbox connecting investigative media houses to whistleblowers. Documents shared on AfriLEAKS form the beginning of a journalistic inquiry instead of being shared directly on the web.
 
-### How do you select media organisations?
+## How do you select media organisations?
 
-The afriLeaks receivers must meet several criteria: excellence in investigative journalism, integrity in content and investigative processes, geographic relevance, etc.
+The AfriLEAKS receivers must meet several criteria: excellence in investigative journalism, integrity in content and investigative processes, geographic relevance, etc.
 
 Media houses that comprise the African Network of Centers for Investigative Reporting (ANCIR) were initially approached and others that have approached us are vetted by a board of leading investigative journalists.
 
-### Why is the AfriLeaks connection so slow?
+## Why is the AfriLEAKS connection so slow?
 
-The connection to afriLeaks goes through the Tor network. Tor is a system of virtual tunnels and relaying computers that hide the sender of information from possible attackers. While this helps to protect your anonymity, the disadvantage is that this can make the connection very slow.
+The connection to AfriLEAKS goes through the Tor network. Tor is a system of virtual tunnels and relaying computers that hide the sender of information from possible attackers. While this helps to protect your anonymity, the disadvantage is that this can make the connection very slow.
 
-### Does uploading information involve danger?
+## Does uploading information involve danger?
 
-Leaking is never without risk. afriLeaks tries, as much as possible, to protect information and to provide information about the risks.
+Leaking is never without risk. AfriLEAKS tries, as much as possible, to protect information and to provide information about the risks.
 
 The system makes finding the source of a leak difficult. Our receivers are journalists that have been trained in the use of state-of-the-art security tools and procedures.
 

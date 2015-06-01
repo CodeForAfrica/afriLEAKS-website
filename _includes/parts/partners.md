@@ -1,29 +1,21 @@
 
-## The afriLeaks Receiver Newsrooms
+# The afriLeaks <br/> Receiver Newsrooms
 
-<div id="inner">
-    <img src="img/100Reporters.png">
-    <img src="img/Daily_Monitor.png">
-    <img src="img/MandG.png">
-    <img src="img/Guardian_Botswana.png">
-    <img src="img/mmegi.png">
-    <img src="img/Oxpeckers.png">
-    <img src="img/PremiumTimes.png">
-    <img src="img/Verdade.png"> 
-    <img src="img/thezimbawean.png">
-    <img src="img/tigereyepi.png">
-    <img src="img/newsday.jpg">
-    <img src="img/maka.png">
-    <!--
-        <img src="img/freepress.jpg">
-        <img src="img/newz.jpg">
-        <img src="img/Ouestaf.png">
-    -->
-    <img src="img/thesource.jpg">
-    <img src="img/zambianwatchdog.png">
-    <img src="img/globalwitness.png">
-    <img src="img/AfricaReport.png"> 
-    <img src="img/savana.png">
-    <img src="img/ktn.png">
-    <img src="img/oi.png">
-</div>
+![Alt text](img/partner_logos/100Reporters.png)
+![Alt text](img/partner_logos/Daily_Monitor.png)
+![Alt text](img/partner_logos/MandG.png)
+![Alt text](img/partner_logos/Guardian_Botswana.png)
+![Alt text](img/partner_logos/mmegi.png)
+![Alt text](img/partner_logos/Oxpeckers.png)
+![Alt text](img/partner_logos/PremiumTimes.png)
+![Alt text](img/partner_logos/Verdade.png)
+![Alt text](img/partner_logos/thezimbawean.png)
+![Alt text](img/partner_logos/tigereyepi.png)
+![Alt text](img/partner_logos/newsday.png)
+![Alt text](img/partner_logos/thesource.png)
+![Alt text](img/partner_logos/zambianwatchdog.png)
+![Alt text](img/partner_logos/globalwitness.png)
+![Alt text](img/partner_logos/AfricaReport.png)
+![Alt text](img/partner_logos/savana_2.png)
+![Alt text](img/partner_logos/ktn.png)
+![Alt text](img/partner_logos/oi.png)
