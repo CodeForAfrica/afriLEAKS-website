@@ -86,6 +86,14 @@ h4 {
   }
 }
 
+a {
+  color: #000;
+  text-decoration: underline;
+  &:hover {
+    color: black;
+  }
+}
+
 #page {
   background-color: white;
 }
