@@ -1,19 +1,15 @@
 
 ## Getting in touch
 
-<<<<<<< HEAD
 If you want to share sensitive information with us, please use our secure system:
 
-<a href="https://secure.afrileaks.org/#/submission" class="btn btn-lg btn-danger btn-large"><strong>Submit information securely</strong></a>
+<a href="https://secure.afrileaks.org/#/submission" class="btn btn-lg btn-default"><strong>Submit information securely</strong></a>
 
 You should never submit information to afriLeaks outside of this secure whistleblowing system.
 
 **Do not (!) use E-Mail to submit sensitive information to us.**
 
 ### Media inquiries and questions to the team
-=======
-For questions about AfriLEAKS you can send a message to: [info@afrileaks.org](mailto:info@afrileaks.org). Please use this address for press inquires or if you are interested in becoming a receiver.
->>>>>>> design/upgrade
 
 **Do not use this address to send us any documents or leaks.**
 
