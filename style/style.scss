@@ -63,6 +63,14 @@ h4 {
   margin-top: 1.5em;
 }
 
+a {
+  color: #000;
+  text-decoration: underline;
+  &:hover {
+    color: black;
+  }
+}
+
 .btn {
   font-family: AfriLeaksOne;
   i {
@@ -74,25 +82,19 @@ h4 {
   text-transform: uppercase;
   font-size: 1.5em;
   padding: 10px 20px;
+  text-decoration: none;
 }
 
 .btn-default {
   background-color: #ffff00;
   color: #000000;
   &:hover {
-    background-color: #ffffff;
-    border: 4px solid #ffff00 !important;
-    padding: 6px 16px !important;
+    background-color: #ffff00;
+    text-decoration: underline;
   }
 }
 
-a {
-  color: #000;
-  text-decoration: underline;
-  &:hover {
-    color: black;
-  }
-}
+
 
 #page {
   background-color: white;
@@ -177,15 +179,23 @@ footer {
     font-size: 1.4em;
     color: #000000;
     text-transform: uppercase;
+    text-decoration: none;
   }
 
   li.active a {
-    text-decoration: underline;
+    text-decoration: none;
     background-color: #ffffff;
     color: black;
-    &:hover, &:focus {
+    &:hover {
       background-color: #eeeeee;
       color: black;
+    }
+    &:focus {
+      background-color: #fff;
+      color: black;
+    }
+    span {
+      border-bottom: 0.3em solid #ffff00;
     }
   }
 }
