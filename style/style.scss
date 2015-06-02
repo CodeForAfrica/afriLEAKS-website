@@ -179,16 +179,20 @@ footer {
     color: #000000;
     text-transform: uppercase;
     text-decoration: none;
+    &:hover {
+      background-color: #ffffff;
+      color: black;
+      span {
+        border-bottom: 0.3em solid #000;
+      }
+    }
   }
 
   li.active a {
     text-decoration: none;
     background-color: #ffffff;
     color: black;
-    &:hover {
-      background-color: #eeeeee;
-      color: black;
-    }
+
     &:focus {
       background-color: #fff;
       color: black;
