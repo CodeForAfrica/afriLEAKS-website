@@ -205,11 +205,13 @@ footer {
 }
 
 #intro {
-  background-image: url(../img/pixellated-photo.jpg);
+  background-image: url(../img/photo-logo-aligned.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
 
   padding-top: 3em;
   padding-bottom: 3em;
