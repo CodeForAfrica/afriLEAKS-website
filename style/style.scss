@@ -205,19 +205,16 @@ footer {
 }
 
 #intro {
-  background-image: url(../img/photo-logo-aligned.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: top;
+  background: yellow url(../img/pixel-pattern.png) repeat center top ;
 
-  padding-top: 3em;
   padding-bottom: 3em;
 
   //font-weight: 700;
   color: white;
+
+  .container {
+    background: yellow url(../img/photo-logo.png) no-repeat center top;
+  }
 
   #claim {
     margin-top: 1.5em;
