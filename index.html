@@ -6,11 +6,9 @@ description: "AfriLeaks is an online system which enables users to anonymously s
 
 <div role="tabpanel" id="main-content">
 
-
   <div class="row">
-    <div class="col-md-9 col-md-offset-3">
-
-      <ul class="nav nav-pills" role="tablist">
+    <div class="col-sm-4 hidden-xs">
+      <ul class="nav nav-pills nav-stacked" role="tablist" style="text-align: right;">
         <li role="presentation" class="active">
           <a href="#about" aria-controls="about" role="tab" data-toggle="tab"><span>Introduction</span></a>
         </li>
@@ -26,18 +24,21 @@ description: "AfriLeaks is an online system which enables users to anonymously s
           <a href="#contact" aria-controls="contact" role="tab" data-toggle="tab"><span>Contact us</span></a>
         </li>
       </ul>
+    </div>
 
+    <div class="col-sm-8">
       <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="about">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6">
               <h1 style="font-size: 4em;">Welcome To AfriLEAKS</h1>
               AfriLEAKS allows you to leak confidential documents of public interest. We've designed the system to help
               you share these materials while protecting your own identity, making it very hard to identify you as the
               source of the leak.
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
               <br/>
+              <div class="hidden-sm hidden-xs" style="height: 200px;"></div>
               AfriLEAKS is run by an alliance of African news organisations that are committed to speaking truth to
               power. You can send us documents and select which of our member organisations should perform an
               investigation. This site also helps you to stay in touch and answer further questions without revealing
@@ -48,13 +49,13 @@ description: "AfriLeaks is an online system which enables users to anonymously s
 
         <div role="tabpanel" class="tab-pane" id="howto">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6">
               <h1>How to leak confidential documents</h1>
               If you have information about issues which should be investigated, share them with one of AfriLEAKS's news
               partners using this site. Consider that concrete information and evidence, such as source documents, gives
               a journalist more to work with and increases the likelihood that your issue gets taken up.
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
               <h2>Protect your identity</h2>
               Leaking sensitive information involves risks. There are both social and technical risks that threaten your
               anonymity. At the same time, there are measures you can take to protect yourself. See 'Your Security' for
@@ -85,6 +86,25 @@ description: "AfriLeaks is an online system which enables users to anonymously s
           {{ security_text | markdownify }}
         </div>
       </div>
+    </div>
+    <div class="col-sm-4 hidden-lg hidden-md hidden-sm">
+      <br/>
+      <ul class="nav nav-pills nav-stacked" role="tablist">
+        <li role="presentation" class="active">
+          <a href="#about" aria-controls="about" role="tab" data-toggle="tab"><span>Introduction</span></a>
+        </li>
+        <li role="presentation">
+          <a href="#howto" aria-controls="howto" role="tab" data-toggle="tab"><span>How to Leak</span></a>
+        </li>
+        <li role="presentation">
+          <a href="#faq" aria-controls="faq" role="tab" data-toggle="tab"><span>Frequent Questions</span></a></li>
+        <li role="presentation">
+          <a href="#security" aria-controls="security" role="tab" data-toggle="tab"><span>Your Security</span></a>
+        </li>
+        <li role="presentation">
+          <a href="#contact" aria-controls="contact" role="tab" data-toggle="tab"><span>Contact us</span></a>
+        </li>
+      </ul>
     </div>
   </div>
 
