@@ -198,7 +198,7 @@ footer {
       background-color: #fff;
       color: black;
     }
-    span {
+    span, &:focus span {
       border-bottom: 0.3em solid #ffff00;
     }
   }
