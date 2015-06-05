@@ -205,24 +205,46 @@ footer {
 }
 
 #intro {
-  background: yellow url(../img/pixel-pattern.png) repeat center top ;
-
-  padding-bottom: 3em;
-
-  //font-weight: 700;
+  background: #000000 url(../img/pixel-pattern.png) repeat center top ;
   color: white;
 
-  .container {
-    background: rgba(255,255,255,0) url(../img/photo-logo.png) no-repeat center top;
-  }
-
-  #claim {
+  .claim {
     margin-top: 1.5em;
     font-size: 2.5em;
     padding-bottom: 1em;
     font-weight: bold;
     font-family: NoticiaText;
+    text-align: left;
   }
+
+  .mobile, .not-mobile {
+    padding-bottom: 3em;
+  }
+
+  .mobile {
+    background-color: black;
+    padding-bottom: 3em;
+    .logo {
+      padding: 3em 0;
+      background: rgba(255,255,255,0) url(../img/pixellated-photo.jpg) no-repeat center top;
+      background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      text-align: center;
+    }
+    .claim{
+      margin-top: 1em;
+    }
+  }
+
+  .not-mobile {
+    .container {
+      background: rgba(255,255,255,0) url(../img/photo-logo.png) no-repeat center top;
+    }
+  }
+
+
 
 }
 
