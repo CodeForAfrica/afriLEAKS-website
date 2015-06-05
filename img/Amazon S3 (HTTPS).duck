@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Amazon Simple Storage Service &amp; CloudFront CDN</string>
+	<key>Hostname</key>
+	<string>s3.amazonaws.com</string>
+	<key>Nickname</key>
+	<string>Amazon S3 (HTTPS)</string>
+	<key>Port</key>
+	<string>443</string>
+	<key>Protocol</key>
+	<string>s3</string>
+	<key>UUID</key>
+	<string>b028d801-f937-4b26-bb5f-c960690211c1</string>
+	<key>Username</key>
+	<string>lema</string>
+</dict>
+</plist>

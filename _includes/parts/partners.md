@@ -20,7 +20,6 @@
 </div>
 
 <div class="row">
-<div class="col-sm-2 col-xs-4"><img src="img/partner_logos/zambianwatchdog.png" class="img-responsive"></div>
 <div class="col-sm-2 col-xs-4"><img src="img/partner_logos/globalwitness.png" class="img-responsive"></div>
 <div class="col-sm-2 col-xs-4"><img src="img/partner_logos/AfricaReport.png" class="img-responsive"></div>
 <div class="col-sm-2 col-xs-4"><img src="img/partner_logos/savana_2.png" class="img-responsive"></div>
