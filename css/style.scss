@@ -81,15 +81,25 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1.5em;
-  padding: 10px 20px;
+  padding: 10px 20px 15px;
   text-decoration: none;
 }
 
 .btn-default {
   background-color: #ffff00;
   color: #000000;
-  &:hover {
+  &:hover, &:focus {
     background-color: #ffff00;
+    text-decoration: underline;
+  }
+}
+
+.btn-primary {
+  background-color: #000000;
+  color: #ffff00;
+  &:hover, &:focus {
+    background-color: #000000;
+    color: #ffff00;
     text-decoration: underline;
   }
 }
