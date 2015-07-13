@@ -3,7 +3,7 @@ host: 0.0.0.0
 
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
+exclude: [AfriLeaks-Landing-Page.esproj, CNAME, README.md, .gitignore]
 permalink: / ## disables post output
 lsi: false
 markdown: kramdown
