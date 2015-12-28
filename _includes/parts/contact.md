@@ -13,7 +13,7 @@ You should never submit information to afriLeaks outside of this secure whistleb
 
 **Do not use this address to send us any documents or leaks.**
 
-For non-sensitive questions about afriLeaks you can send a message to: [info@afrileaks.org](mailto:info@afrileaks.org).
+For non-sensitive questions about afriLeaks you can send a message to: [info@afrileaks.org](mailto:info@afrileaks.org) [[PGP PUBLIC KEY](/7A2F3CF6.asc) ([?](http://lifehacker.com/how-to-encrypt-your-email-and-keep-your-conversations-p-1133495744 "What is PGP and how do I use it to encrypt my email?"))].
 
 Please use this address for press inquries, or if you are interested in becoming a receiver.
 
