@@ -9,4 +9,4 @@ Leaking sensitive information involves risks. There are both social and technica
 
 ### Who should receive your information?
 
-The press checks those in power and exposes misconduct or abuse of power. The media has the resources to bring issues into the public light. Journalists are professionals who investigate, ask critical questions, and ensure all parties involved are asked about their side of the story. Furthermore, they work for mass media (newspapers, magazines, websites, radio, or television programs) through which they can make their research public.
+The press checks those in power and exposes misconduct or abuse of power. The media has the resources to bring issues into the public light. Journalists are professionals who investigate, ask critical questions, and ensure all parties involved are afforded an opportunity to present their side of the story. Furthermore, they work for mass media (newspapers, magazines, websites, radio, or television programmes) through which they can make their research public.
