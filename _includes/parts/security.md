@@ -21,7 +21,7 @@ You should be aware that whenever you use a computer, mobile phone or the intern
 * correspondence with journalists involved with the whistleblower platform;
 * your name and other information in Word file meta data (author, date, etc);
 
-As you can see, there are various risks involved and the ones list above are by no means all of them. Yet with a few technical steps you can try to minimize these risks as much as possible.
+As you can see, there are various risks involved and the ones listed above are by no means all of them. Yet with a few technical steps you can try to minimize these risks as much as possible.
 
 ## Social Security
 
