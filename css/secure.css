@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+/*@font-face {*/
+    /*font-family: 'Raleway';*/
+    /*src: url('/s/Raleway-Regular.ttf');*/
+/*}*/
+
+@font-face {
+    font-family: 'NoticiaText';
+    src: url("/s/NoticiaText-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'NoticiaText';
+    src: url("/s/NoticiaText-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'NoticiaText';
+    src: url("/s/NoticiaText-Italic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NoticiaText';
+    src: url("/s/NoticiaText-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AfriLeaksOne';
+    src: url("/s/AfriLeaksOne-Regular.ttf");
+}
+
+body {
+    font-family: 'NoticiaText', serif;
+    font-size: 16px;
+    margin-bottom: 125px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #000;
+    background-color: #ffff00;
+    border-radius: 0;
+}
+
+h1, h2, h3, #PageTitle, #SubTitleBox, #HomePageBoxNodeDescription, #WhistleblowerLoginBoxHeader, #ReceiverLoginBoxHeader {
+    font-family: 'AfriLeaksOne';
+    font-weight: 700;
+    color: #000;
+}
+
+#HomePageBoxNodePresentation {
+    font-family: 'NoticiaText';
+    font-weight: 700;
+    color: #000;
+}
+
+#HomePageBox {
+    margin: 0;
+}
+
+#HomePageBoxNodePresentation {
+    font-size: 2em;
+}
+
+#WhistleblowerSubmitBoxHeader {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+#HomePageBoxNodeDescription, #PageSubtitleHomepage {
+    display: none;
+}
+
+#PrivacyBadgeBox {
+    font-size: 16px;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+    color: #000;
+    text-decoration: underline;
+}
+
+#WhistleblowerSubmitBoxButton .btn {
+    display: inline-block;
+    font-weight: normal;
+    border-radius: 0;
+    text-shadow: none;
+    box-shadow: none;
+    color: #000;
+    font-size: 2em;
+    padding: 10px 20px 15px;
+}
+
+#WhistleblowerSubmitBoxButton .btn i {
+    display: none;
+}
+
+.btn, .btn:hover, .btn:focus,
+.btn-success, .btn-success:hover, .btn-success:focus,
+.btn-primary, .btn-primary:hover, .btn-success:focus,
+.btn-danger, .btn-danger:hover, .btn-success:focus,
+.btn-warning, .btn-warning:hover, .btn-success:focus {
+    border-color: #ffff00 !important;
+    background-color: #ffff00 !important;
+    color: #000 !important;
+    font-family: AfriLeaksOne !important;
+    text-transform: uppercase !important;
+    border-radius: 0 !important;
+    text-transform: uppercase !important;
+}
+
+.btn-success[disabled], .btn-primary[disabled], .btn-danger[disabled], .btn-warning[disabled] {
+    border-color: #ccc;
+    background-color: #ccc;
+    color: #fff;
+}
+
+#HeaderBox, #HeaderBoxHomepage {
+    background: url('/s/pixellated-photo.jpg') no-repeat center top;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    text-align: center;
+    border: 0;
+    padding: 20px;
+}
+
+#ToolbarBox {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+#PrivacyBadgeBox {
+    color: #000;
+    background-color: yellow;
+}
+
+#PrivacyBadgeBox .btn {
+    color: #FFF;
+}
+
+#TitleBox {
+    color: #000;
+}
+
+#PageTitle, #PageTitleHomepage {
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: AfriLeaksOne;
+    text-align: left;
+}
+#PageTitleHomepage {
+    font-size: 70px;
+}
+
+#PageSubtitle {
+    color: #fff;
+    text-align: left;
+}
+
+#LoginStatusBox {
+    padding: 10px 15px;
+    border-radius: 0;
+}
+
+#FooterBox {
+    height: auto;
+    background-color: #000;
+    font-size: 1em;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+#FooterBox p {
+    color: #fff;
+}
+
+#tipList {
+    font-size: 14px;
+}
+
+#WhistleblowerLoginBox {
+    margin-bottom: 30px;
+}
+#WhistleblowerLoginBoxLabel {
+    margin-bottom: 15px;
+}
+
+
