@@ -1,9 +1,14 @@
 <div class="row">
   <div class="col-md-4">
-    <p class="hidden-sm hidden-xs text-left">afriLEAKS is a joint project of the <a
-        href="https://investigativecenters.org" target="_blank">African Network of Centers for Investigative Reporting</a> in collaboration with the <a href="http://logioshermes.org/" target="_blank">Hermes Center for Transparency and Digital Human Rights</a>.</p>
+    {% if page.lang == "fr" %}
+      <p class="hidden-sm hidden-xs text-left">afriLEAKS est un projet commun de <a href="https://investigativecenters.org" target="_blank">African Network of Centers for Investigative Reporting</a> et du Centre <a href="http://logioshermes.org/" target="_blank">Hermès pour la transparence et les droits humains numériques</a>.</p>
+      
+      <p class="hidden-lg hidden-md text-center">afriLEAKS est un projet commun de <a href="https://investigativecenters.org" target="_blank">African Network of Centers for Investigative Reporting</a> et du Centre <a href="http://logioshermes.org/" target="_blank">Hermès pour la transparence et les droits humains numériques</a>.</p>
+    {% else %}
+      <p class="hidden-sm hidden-xs text-left">afriLEAKS is a joint project of the <a href="https://investigativecenters.org" target="_blank">African Network of Centers for Investigative Reporting</a> in collaboration with the <a href="http://logioshermes.org/" target="_blank">Hermes Center for Transparency and Digital Human Rights</a>.</p>
 
-    <p class="hidden-lg hidden-md text-center">afriLEAKS is a joint project of the <a href="https://investigativecenters.org" target="_blank">African Network of Centers for Investigative Reporting</a> in collaboration with the <a href="http://logioshermes.org/" target="_blank">Hermes Center for Transparency and Digital Human Rights</a>.</p>
+      <p class="hidden-lg hidden-md text-center">afriLEAKS is a joint project of the <a href="https://investigativecenters.org" target="_blank">African Network of Centers for Investigative Reporting</a> in collaboration with the <a href="http://logioshermes.org/" target="_blank">Hermes Center for Transparency and Digital Human Rights</a>.</p>
+    {% endif %}
   </div>
   <div class="col-md-8">
     <p class="hidden-sm hidden-xs text-right">
