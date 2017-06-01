@@ -20,6 +20,14 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ stylesheet }}.css" media="screen" type="text/css">
   {% endfor %}
   {% endif %}
+
+  <!-- Language Check -->
+  <script type="text/javascript">
+    var language = window.navigator.userLanguage || window.navigator.language;
+    if (window.location.pathname != '/fr/' && language == 'fr') {
+      window.location.pathname == '/fr/'
+    }
+  </script>
 </head>
 <body>
 
